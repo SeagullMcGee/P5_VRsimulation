@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 820.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -416,9 +416,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: eedbffff1c860000fa860000
+      m_SelectedIDs: 36effeff
+      m_LastClickedID: -69834
+      m_ExpandedIDs: 1cf0feff60f1feff84f4feff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 82.47851
     speed: 2
-    m_Value: 86.36493
+    m_Value: 82.47851
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1032,16 +1032,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Adeli\Documents\Unity projects and files\P5\P5_VRsimulation\MED5_p5_VR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 15.800049}
-    m_SelectedIDs: bc870000
-    m_LastClickedID: 34748
-    m_ExpandedIDs: 0000000074640000b2870000b4870000b687000000ca9a3b
+    m_SelectedIDs: ea9c0000
+    m_LastClickedID: 40170
+    m_ExpandedIDs: 00000000b2640000d29c0000d49c0000d69c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1069,7 +1069,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 391.39996}
     m_SelectedIDs: 12150000
     m_LastClickedID: 5394
-    m_ExpandedIDs: 0000000074640000b2870000b4870000b6870000
+    m_ExpandedIDs: 00000000b2640000d29c0000d49c0000d69c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

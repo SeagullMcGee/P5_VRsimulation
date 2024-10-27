@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class ClickObject : MonoBehaviour
 {
-    public PanelManagerAI panelManagerAI;
+    public PanelManagerXR PanelManagerXR;
 
-    private void OnMouseDown()
+    public bool firstPanel = false;
+
+    public void OnGrab()
     {
-        if (panelManagerAI != null)
+        if (PanelManagerXR != null)
         { 
-            panelManagerAI.InstantiatePanel();
+            firstPanel = true;
+            PanelManagerXR.ShowPanel(0);
         }
         else
         {

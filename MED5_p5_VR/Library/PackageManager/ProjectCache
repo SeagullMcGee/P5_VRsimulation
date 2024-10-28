@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638656400136096660
-    m_Hash: 609988506
+      ticks: 638657250331835127
+    m_Hash: 811261136
   m_LockFileStatus:
     m_FilePath: C:/Users/Adeli/Documents/Unity projects and files/P5/P5_VRsimulation/MED5_p5_VR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638656400136096660
-    m_Hash: 1847845559
+      ticks: 638657250331905482
+    m_Hash: 1877181934
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:

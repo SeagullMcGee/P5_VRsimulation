@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Jazz Hands.unity
+- path: Assets/Scenes/ScenesInSim/4# Scene - Conversation.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

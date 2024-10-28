@@ -1,129 +1,68 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class PanelManagerXR : MonoBehaviour
 {
-    [SerializeField] private GameObject[] panelPrefabs;  // Array of panel prefabs to instantiate
-    [SerializeField] private float fadeDuration = 0.5f;  // Duration for fading in/out panels
-    [SerializeField] private Canvas targetCanvas; // Target canvas for instantiation
+    public static PanelManagerXR Instance { get; private set; } // Singleton instance
 
-    private GameObject currentPanel;  // Track the currently active panel
-    private CanvasGroup currentCanvasGroup;  // CanvasGroup of the current panel for fading
+    public List<PanelModel> Panels; // List of panel models
+    private GameObject currentPanel; // Track the currently active panel
 
-    /// <summary>
-    /// Shows a panel with a fade-in effect based on the chosen index.
-    /// </summary>
-    /// <param name="panelIndex">Index of the panel prefab to instantiate</param>
-    /// 
-
-    public void Awake()
+    private void Awake()
     {
-        Instantiate(targetCanvas);
-    }
-
-    public void ShowPanel(int panelIndex)
-    {
-        Debug.Log("ShowPanel called with index: " + panelIndex);
-
-        // If there is a panel currently displayed, fade it out first
-        if (currentPanel != null)
+        // Check if there is already an instance of PanelManager
+        if (Instance == null)
         {
-            StartCoroutine(FadeOutAndDestroy(currentPanel, currentCanvasGroup));
-        }
-
-        // Instantiate the selected panel prefab if the index is within bounds
-        if (panelIndex >= 0 && panelIndex < panelPrefabs.Length)
-        {
-            Debug.Log("Instantiating panel at index: " + panelIndex);
-            currentPanel = Instantiate(panelPrefabs[panelIndex], targetCanvas.transform);
-
-            // Check if panel instantiated correctly
-            if (currentPanel == null)
-            {
-                Debug.LogError("Panel instantiation failed.");
-                return;
-            }
-
-            Debug.Log("Panel instantiated successfully.");
-            currentCanvasGroup = currentPanel.GetComponent<CanvasGroup>();
-
-            // Ensure a CanvasGroup component exists for fading
-            if (currentCanvasGroup == null)
-            {
-                Debug.Log("CanvasGroup not found, adding CanvasGroup component.");
-                currentCanvasGroup = currentPanel.AddComponent<CanvasGroup>();
-            }
-
-            // Set up initial CanvasGroup properties for fade-in
-            currentCanvasGroup.alpha = 0f;  // Start with transparent
-            currentCanvasGroup.interactable = true;
-            currentCanvasGroup.blocksRaycasts = true;
-
-            // Start fade-in effect
-            StartCoroutine(FadeIn(currentCanvasGroup));
+            Instance = this;
+            DontDestroyOnLoad(gameObject); // Keep this instance across scenes
         }
         else
         {
-            Debug.LogWarning("Panel index out of bounds!");
+            Destroy(gameObject); // Destroy duplicate instances
         }
     }
 
-    /// <summary>
-    /// Hides the currently active panel with a fade-out effect.
-    /// </summary>
-    public void HidePanel()
+    // Method to show a panel by index
+    public void ShowPanel(int panelIndex)
+    {
+        // Validate the panel index
+        if (panelIndex < 0 || panelIndex >= Panels.Count)
+        {
+            Debug.LogWarning("Panel index out of bounds!");
+            return;
+        }
+
+        Debug.Log("ShowPanel called with index: " + panelIndex);
+
+        // If there is a panel currently displayed, hide it first
+        if (currentPanel != null)
+        {
+            HideCurrentPanel();
+        }
+
+        // Instantiate and display the selected panel prefab
+        currentPanel = Instantiate(Panels[panelIndex].PanelPrefab, transform);
+        currentPanel.transform.localPosition = Vector3.zero; // Center the panel in the canvas
+
+        // Ensure it is fully visible
+        CanvasGroup canvasGroup = currentPanel.GetComponent<CanvasGroup>() ?? currentPanel.AddComponent<CanvasGroup>();
+        canvasGroup.alpha = 1f;  // Make it fully visible
+        canvasGroup.interactable = true;
+        canvasGroup.blocksRaycasts = true;
+
+        Debug.Log("Panel instantiated successfully.");
+    }
+
+    // Method to hide the current panel
+    public void HideCurrentPanel()
     {
         if (currentPanel != null)
         {
-            StartCoroutine(FadeOutAndDestroy(currentPanel, currentCanvasGroup));
+            Destroy(currentPanel); // Destroys the current panel immediately
+            currentPanel = null;   // Reset the current panel reference
+            Debug.Log("Current panel hidden.");
         }
-    }
-
-    /// <summary>
-    /// Coroutine to fade in the CanvasGroup.
-    /// </summary>
-    private IEnumerator FadeIn(CanvasGroup canvasGroup)
-    {
-        float elapsedTime = 0f;
-        Debug.Log("FadeIn started");
-
-        while (elapsedTime < fadeDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            canvasGroup.alpha = Mathf.Clamp01(elapsedTime / fadeDuration);
-            yield return null;
-        }
-
-        Debug.Log("FadeIn completed");
-    }
-
-    /// <summary>
-    /// Coroutine to fade out the CanvasGroup and destroy the panel afterwards.
-    /// </summary>
-    private IEnumerator FadeOutAndDestroy(GameObject panel, CanvasGroup canvasGroup)
-    {
-        float elapsedTime = 0f;
-        Debug.Log("FadeOut started");
-
-        if (canvasGroup != null)
-        {
-            canvasGroup.interactable = false;
-            canvasGroup.blocksRaycasts = false;
-
-            while (elapsedTime < fadeDuration)
-            {
-                elapsedTime += Time.deltaTime;
-                canvasGroup.alpha = Mathf.Clamp01(1 - (elapsedTime / fadeDuration));
-                yield return null;
-            }
-        }
-
-        // Destroy the panel after fade-out
-        Destroy(panel);
-        currentPanel = null;
-        currentCanvasGroup = null;
-
-        Debug.Log("FadeOut completed and panel destroyed");
     }
 }

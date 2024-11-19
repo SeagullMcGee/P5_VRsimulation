@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -78,7 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA1.1
+  m_Text: "\"Selvf\xF8lgelig, Trine. Husk bare, at det er godt at f\xE5 lavet lektierne
+    s\xE5 hurtigt som muligt. Jeg stoler p\xE5, at du g\xF8r dit bedste.\"\r\n"
 --- !u!1 &929721894678646855
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.8500053, y: 0}
+  m_AnchoredPosition: {x: 1.8499756, y: 0}
   m_SizeDelta: {x: 3.7000122, y: 13.350006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1408476716372994882
@@ -483,7 +484,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: TA1
+  m_text: "Ja, jeg t\xE6nkte ogs\xE5, at det nok ikke var s\xE5 slemt bare denne
+    ene gang.\"\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -510,8 +512,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 200
-  m_fontSizeBase: 200
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -546,7 +548,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -289.6478, y: 0, z: -218.80017, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -694,7 +696,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -705,7 +707,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA2.1
+  m_Text: "\"Det er fint, Trine. Hvis du oplever, at det sker ofte, kan du bare sige
+    til. S\xE5 kan vi finde en l\xF8sning.\"\r\n"
 --- !u!1 &5889434650161862137
 GameObject:
   m_ObjectHideFlags: 0

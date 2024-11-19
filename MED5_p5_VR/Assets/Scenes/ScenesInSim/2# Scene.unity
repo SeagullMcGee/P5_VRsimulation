@@ -688,7 +688,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -699,7 +699,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LA
+  m_Text: "\"Hvordan f\xF8ltes det for dig, da Marie ikke ville give bolden?\""
 --- !u!222 &659302326
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1405,7 +1405,7 @@ GameObject:
   - component: {fileID: 1215278287}
   - component: {fileID: 1215278286}
   m_Layer: 0
-  m_Name: PanelManager
+  m_Name: PanelManager2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1424,26 +1424,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panelPrefabs:
-  - {fileID: 929721894678646855, guid: 6e78d9fc58d2532468b692d6c41eb124, type: 3}
-  - {fileID: 1223847812331791434, guid: 1697a098cc2dbe743860ce867a1cd30d, type: 3}
-  - {fileID: 8542341563978408274, guid: cd40ec66f8dbb13439268def25c6f2d2, type: 3}
-  - {fileID: 288770507362561937, guid: 0b2909ca649c5264a879c8358c796638, type: 3}
-  - {fileID: 133075354825933641, guid: fa31593faa91e23428d8c747018dd024, type: 3}
+  - {fileID: 929721894678646855, guid: ac1819137cdb0044a8f0592959a86554, type: 3}
+  - {fileID: 1223847812331791434, guid: 889c781f2cdee61479af864a9e23ae0a, type: 3}
+  - {fileID: 8542341563978408274, guid: 6176e18712a15ff4faa3914703b1064c, type: 3}
+  - {fileID: 133075354825933641, guid: f1a603465bc583e4b9f6dd3babdca181, type: 3}
+  - {fileID: 288770507362561937, guid: 485d7ca959c701d4ebbf6eaa58326bea, type: 3}
   - {fileID: 2103491600807491329, guid: ca2672d71d89ef446b779d8c514db219, type: 3}
-  - {fileID: 989901850299019283, guid: b86b18940a0888146862484b281d2641, type: 3}
-  - {fileID: 2966654484251556807, guid: 80456168815c46e46a7318d4edf4542d, type: 3}
+  - {fileID: 2966654484251556807, guid: dfc381730f5e66a4cb5c95cc9c3d93f2, type: 3}
+  - {fileID: 989901850299019283, guid: 199d2722709f00b438eb9974f847e2fb, type: 3}
   - {fileID: 2103491600807491329, guid: 7ee5e7daee8d29d43af8f95ec7aa1620, type: 3}
-  - {fileID: 8579913357045619979, guid: 50f127b8f54e8744cb8a70af4358ec07, type: 3}
-  - {fileID: 556569957784760754, guid: ef829554357dc934593c9b84ab941596, type: 3}
+  - {fileID: 556569957784760754, guid: 08fe6c47dd12024439a864a00cde105d, type: 3}
+  - {fileID: 8579913357045619979, guid: 2224adaee6430ce47839a2666c306a05, type: 3}
   - {fileID: 2036779187724545963, guid: de655979f8e1e164dbf88516a4161052, type: 3}
-  - {fileID: 8753390480731887418, guid: 100e7feeec7866d42967c299f75b8442, type: 3}
-  - {fileID: 5548454940958895916, guid: 5970f5c8eb234524cb62850aa1969c4e, type: 3}
+  - {fileID: 5548454940958895916, guid: 23faf3c5886327948920d072715b1ac6, type: 3}
+  - {fileID: 8753390480731887418, guid: c4599edcccd825644ab61e1df916e890, type: 3}
   - {fileID: 4159011532931397225, guid: 3137289019eddcf409957a6bd6ca931d, type: 3}
-  - {fileID: 2108051003184692673, guid: 0e22660cb0a611c4c837d8e1a2a5cc74, type: 3}
-  - {fileID: 7425553457764629374, guid: 77f2af7a4cc5a474dadb2b49079a9838, type: 3}
+  - {fileID: 7425553457764629374, guid: 5814954f6ab98994aaf24e05ed3720d0, type: 3}
+  - {fileID: 2108051003184692673, guid: 3b59184f5727d364da32d7a728995613, type: 3}
   - {fileID: 1191532568398363676, guid: 86cd86c5382b9414ba77b0a42f102664, type: 3}
-  - {fileID: 3706226333872649511, guid: a5d47a4fa818a9f41adbe4bad046a70a, type: 3}
-  - {fileID: 2525275484612181575, guid: c9855639cebf76e4aab4d0122fa3f769, type: 3}
+  - {fileID: 2525275484612181575, guid: ae9b2fa9745a97b4dbfecefa5d5b0776, type: 3}
+  - {fileID: 3706226333872649511, guid: 13b4c96fb8b9bbf44bc8b6d6b2869627, type: 3}
   - {fileID: 5434566728488414695, guid: 106ecf884f9ad2740bd65f48a49787a0, type: 3}
   fadeDuration: 0.16
   targetCanvas: {fileID: 1519872440}
@@ -1586,7 +1586,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1597,7 +1597,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LC
+  m_Text: "\"N\xE5r vi reagerer med vores h\xE6nder i stedet for med ord, hvad tror
+    du s\xE5, det g\xF8r ved den anden person?\""
 --- !u!222 &1359395565
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1665,7 +1666,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 28
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1676,7 +1677,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: LB
+  m_Text: "\"Det virker som om, der m\xE5ske er mere i det her for dig. Har jeg ret?\""
 --- !u!222 &1407588479
 CanvasRenderer:
   m_ObjectHideFlags: 0

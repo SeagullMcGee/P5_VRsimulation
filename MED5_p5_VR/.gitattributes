@@ -37,3 +37,5 @@
 *.avi binary
 *.zip binary
 *.rar binary
+
+*.obj text eol=lf

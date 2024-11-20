@@ -181,11 +181,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 76
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -413,7 +413,7 @@ MonoBehaviour:
   - {fileID: 5434566728488414695, guid: 58e7677816a914a438bd6c1127a03548, type: 3}
   - {fileID: 2966654484251556807, guid: c179513e6a8d3af4babb4e6f1671829e, type: 3}
   fadeDuration: 0.16
-  targetCanvas: {fileID: 2072460747}
+  targetCanvas: {fileID: 1885285306}
 --- !u!4 &310928440
 Transform:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 501.85, y: -277.55002}
+  m_AnchoredPosition: {x: 476, y: -315}
   m_SizeDelta: {x: 801.36, y: 107.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423500491
@@ -486,7 +486,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 29
+  m_Spacing: 60
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -1066,7 +1066,7 @@ RectTransform:
   m_GameObject: {fileID: 1194627709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2106, y: 1.3559, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2121965874}
@@ -1214,6 +1214,18 @@ MonoBehaviour:
           m_StringArgument: 1.Valg
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2072460747}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1194627716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1338,7 +1350,7 @@ RectTransform:
   m_GameObject: {fileID: 1219976730}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2106, y: 1.3559, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 728991348}
@@ -1486,6 +1498,18 @@ MonoBehaviour:
           m_StringArgument: 1.Valg
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2072460747}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1219976737
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1557,7 +1581,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 76
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1708,11 +1732,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 76
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -2072,7 +2096,7 @@ RectTransform:
   m_GameObject: {fileID: 1974049752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 20}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2106, y: 1.3559, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 931305872}
@@ -2218,6 +2242,18 @@ MonoBehaviour:
           m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 1.Valg
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2072460747}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!222 &1974049759
@@ -2391,7 +2427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 500, y: -224}
+  m_AnchoredPosition: {x: 500, y: -229.7}
   m_SizeDelta: {x: 1000, y: 459.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2121965873

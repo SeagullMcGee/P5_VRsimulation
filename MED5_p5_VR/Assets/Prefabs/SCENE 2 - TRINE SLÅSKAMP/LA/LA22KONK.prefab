@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: NEXT
+  m_Text: "N\xE6ste"
 --- !u!1 &1163100746233114259
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +387,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: LA2KONK
+  m_text: "Trine retter blikket mod jorden og tr\xE6kker h\xE6nderne ind til sig,
+    som om hun fors\xF8ger at g\xF8re sig mindre. Hun skubber en sten med foden og
+    t\xF8ver, inden hun ser hurtigt op, kun for straks at kigge v\xE6k igen. \"Det
+    er bare... ligegyldigt,\" hvisker hun med en n\xE6sten uh\xF8rlig stemme. Hendes
+    skuldre synker lidt mere, og hendes \xF8jne flakker, som om hun leder efter noget
+    at holde fast i, men ikke kan finde det."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -414,10 +419,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 150
+  m_fontSize: 34.7
   m_fontSizeBase: 150
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -450,7 +455,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -113.188354, y: -93.09863, z: -104.31616, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -557,7 +562,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 21
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -654,4 +659,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef680915fee27094c8ab2bec8e556446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIndex: 0
+  panelIndex: 21

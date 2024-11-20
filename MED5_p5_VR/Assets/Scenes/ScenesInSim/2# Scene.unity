@@ -515,7 +515,7 @@ MonoBehaviour:
   m_Text: "Du har g\xE5rdvagt i det store frikvarter. Du ser Trine og Marie v\xE6re
     oppe at toppes. Du hiver dem til side. Trine siger \"Jeg havde alts\xE5 bolden
     f\xF8rst!\" Marie siger \"Jeg legede med bolden og s\xE5 kom Trine og sagde det
-    var hendes og r\xE6v mig i h\xE5reet!\" \r\n"
+    var hendes og r\xE6v mig i h\xE5ret!\" \r\n"
 --- !u!222 &165688625
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.541
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1223,6 +1223,7 @@ MonoBehaviour:
   - {fileID: 2525275484612181575, guid: ae9b2fa9745a97b4dbfecefa5d5b0776, type: 3}
   - {fileID: 3706226333872649511, guid: 13b4c96fb8b9bbf44bc8b6d6b2869627, type: 3}
   - {fileID: 5434566728488414695, guid: 106ecf884f9ad2740bd65f48a49787a0, type: 3}
+  - {fileID: 2966654484251556807, guid: 1c638c39483859247848c10adb76092d, type: 3}
   fadeDuration: 0.16
   targetCanvas: {fileID: 1519872440}
 --- !u!4 &1215278287
@@ -2757,6 +2758,6 @@ SceneRoots:
   - {fileID: 1651229448}
   - {fileID: 852496366}
   - {fileID: 714947134}
-  - {fileID: 1215278287}
   - {fileID: 2051739802}
   - {fileID: 861905076}
+  - {fileID: 1215278287}

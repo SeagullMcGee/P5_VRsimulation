@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 120}
-  m_SizeDelta: {x: 316.6, y: 110.7}
+  m_AnchoredPosition: {x: 31, y: 118}
+  m_SizeDelta: {x: 358.93, y: 67.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8359441189609495605
 CanvasRenderer:
@@ -141,7 +141,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Trine kigger p\xE5 dig med et udmattet blik og mumler: \"Jeg vidste, du
-    ikke ville forst\xE5. Jeg burde aldrig have sagt noget.\"\nHun ser v\xE6k, og
+    ikke ville forst\xE5. Jeg burde aldrig have sagt noget.\" Hun ser v\xE6k, og
     et ubehageligt tomrum opst\xE5r mellem jer. Trine er bange, og hendes tillid
     er blevet testet, men hun f\xF8ler sig stadigv\xE6k fanget i et system, der ikke
     forst\xE5r hende. Hendes \xF8jne fyldes med t\xE5rer igen, og hun sl\xE5r forsigtigt
@@ -172,14 +172,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.6
+  m_fontSize: 32.1
   m_fontSizeBase: 200
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -330,7 +330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 443, y: 64.4}
+  m_AnchoredPosition: {x: 493, y: 64.4}
   m_SizeDelta: {x: 183.7, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &243449928059165293

@@ -272,7 +272,7 @@ MonoBehaviour:
   ClothingItemTopVariationIndex: 1
   ClothingItemBottom: {fileID: 11400000, guid: 52453fb03e83d554b96fc0ef43e4904e, type: 2}
   ClothingItemBottomVariationIndex: 1
-  ClothingItemGlasses: {fileID: 11400000, guid: 8c5c8a5c08d367841b80dd34e4145633, type: 2}
+  ClothingItemGlasses: {fileID: 0}
   ClothingItemGlassesVariationIndex: 0
   ClothingItemShoes: {fileID: 11400000, guid: bd0a4384161c5654cbda693888a17df3, type: 2}
   ClothingItemShoesVariationIndex: 0

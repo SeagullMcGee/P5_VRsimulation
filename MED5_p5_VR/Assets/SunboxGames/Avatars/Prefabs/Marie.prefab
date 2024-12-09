@@ -3651,7 +3651,7 @@ MonoBehaviour:
   NailsMaterialIndex: 0
   ClothingItemHat: {fileID: 0}
   ClothingItemHatVariationIndex: 0
-  ClothingItemTop: {fileID: 11400000, guid: 8246b73db22e13046806923906bd0224, type: 2}
+  ClothingItemTop: {fileID: 11400000, guid: 4dff1c952c98f034c86d8762d6a38501, type: 2}
   ClothingItemTopVariationIndex: 0
   ClothingItemBottom: {fileID: 11400000, guid: f4b65f6c6ef931b4c8ee27af64574193, type: 2}
   ClothingItemBottomVariationIndex: 0

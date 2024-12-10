@@ -21,13 +21,13 @@ public class SceneController : MonoBehaviour
         DontDestroyOnLoad(gameObject); // Persist SceneController across scenes
     }
 
-    // Method to dynamically set the scene index
+    
     public void SetSceneIndex(int index)
     {
         sceneBuildIndex = index;
     }
 
-    // Method to load the specified scene
+   
     public void WhatSceneToLoad()
     {
         if (sceneBuildIndex >= 0 && sceneBuildIndex < SceneManager.sceneCountInBuildSettings)

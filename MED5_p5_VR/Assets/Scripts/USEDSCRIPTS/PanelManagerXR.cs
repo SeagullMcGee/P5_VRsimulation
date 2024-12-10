@@ -72,10 +72,6 @@ public class PanelManagerXR : MonoBehaviour
             Debug.LogWarning("Panel index out of bounds!");
         }
     }
-
-    /// <summary>
-    /// Sets up the buttons inside the panel to call ShowPanel with the correct index.
-    /// </summary>
     private void SetupPanelButtons(GameObject panel)
     {
         Button[] buttons = panel.GetComponentsInChildren<Button>();
